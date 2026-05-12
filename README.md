@@ -2,12 +2,13 @@
 
 ## Project overview
 
-This project was created for learning and practical testing of a robotic arm manipulator. The main idea is to show how Python code, servo motors, inverse kinematics, serial communication, and the SSC 32U board can work together in one system.
+This project was created for learning and practical testing of a Symotec created robotic arm manipulator. The main idea is to show how Python code, servo motors, inverse kinematics, serial communication, and the SSC 32U board can work together in one system.
 
 The arm can move to a selected position using x, y, and z coordinates. The program calculates the needed servo angles and sends movement commands to the SSC 32U board. The gripper can also open, close, and hold an object.
 
 ## Hardware used
 
+- Symotec robotic arm manipulator
 - SSC 32U servo controller board
 - Servo motors for the arm joints
 - Servo motor for the gripper
@@ -117,4 +118,4 @@ This command moves the gripper to a selected angle.
 
 ## Result
 
-This project shows a simple way to control a robotic arm with Python and the SSC 32U board. It is useful for learning robotic arm movement, servo control, serial communication, and basic inverse kinematics.
+This project shows a simple way to control a Symotec created robotic arm with Python and the SSC 32U board. It is useful for learning robotic arm movement, servo control, serial communication, and basic inverse kinematics.
