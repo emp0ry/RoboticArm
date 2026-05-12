@@ -8,38 +8,27 @@ The arm can move to a selected position using x, y, and z coordinates. The progr
 
 ## Hardware used
 
-SSC 32U servo controller board
-
-Servo motors for the arm joints
-
-Servo motor for the gripper
-
-Force sensor
-
-3D printed arm parts
-
-Power supply for the servo motors
-
-Computer with Python installed
+- SSC 32U servo controller board
+- Servo motors for the arm joints
+- Servo motor for the gripper
+- Force sensor
+- 3D printed arm parts
+- Power supply for the servo motors
+- Computer with Python installed
 
 ## Python libraries used
 
-math
-
-serial
-
-time
-
+`math`, `serial`, `time`  
 Only these libraries are used so the code stays simple and easy to understand.
 
 ## Servo connection
 
-- Base servo is connected to channel 0
-- Shoulder servo is connected to channel 1
-- Elbow servo is connected to channel 16
-- End effector servo is connected to channel 17
-- Gripper servo is connected to channel 18
-- Force sensor is connected to analog input A
+- Base servo is connected to channel `0`
+- Shoulder servo is connected to channel `1`
+- Elbow servo is connected to channel `16`
+- End effector servo is connected to channel `17`
+- Gripper servo is connected to channel `18`
+- Force sensor is connected to analog input `A`
 
 ## Main features
 
