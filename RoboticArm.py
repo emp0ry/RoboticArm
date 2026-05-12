@@ -42,7 +42,7 @@ class RAConfig:
 
         self.ser = Serial(self.serial_port, self.baud_rate, timeout=0.1)
 
-    def inverse_kinematics(self, x: float, y: float, z: float, thetaAT: float=90) -> float:
+    def inverse_kinematics(self, x: float, y: float, z: float, thetaAT: float=90):
         # Distance between the base motor and the end effector in the x-y plane
         r = sqrt(x**2 + y**2)
 
